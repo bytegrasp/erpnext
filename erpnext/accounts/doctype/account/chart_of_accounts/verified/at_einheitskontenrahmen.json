@@ -326,11 +326,17 @@
       "20-21 Forderungen aus Lieferungen und Leistungen": {
         "200 Forderungen aus Lieferungen und Leistungen Inland (0% USt, umsatzsteuerfrei)": {
           "account_type": "Receivable",
-          "is_group": 1
+          "Forderungen aus Lieferungen und Leistungen Inland (0% USt, umsatzsteuerfrei)": {
+            "account_type": "Receivable",
+            "account_number": 2000
+          }
         },
         "201 Forderungen aus Lieferungen und Leistungen Inland (10% USt)": {
           "account_type": "Receivable",
-          "is_group": 1
+          "Forderungen aus Lieferungen und Leistungen Inland (10% USt)": {
+            "account_type": "Receivable",
+            "account_number": 2010
+          }
         },
         "202 Forderungen aus Lieferungen und Leistungen Inland (20% USt)": {
           "account_type": "Receivable",
@@ -353,7 +359,10 @@
         },
         "210-212 Forderungen aus Lieferungen und Leistungen Ausland (Euro)": {
           "account_type": "Receivable",
-          "is_group": 1
+          "Forderungen aus Lieferungen und Leistungen Ausland (Euro)": {
+            "account_type": "Receivable",
+            "account_number": 2100
+          }
         },
         "213 Einzelwertberichtigungen zu Forderungen aus Lieferungen und Leistungen Ausland (Euro)": {
           "account_type": "Receivable",
@@ -365,7 +374,10 @@
         },
         "215-217 Forderungen aus Lieferungen und Leistungen sonstiges Ausland (Fremdw\u00e4hrungen)": {
           "account_type": "Receivable",
-          "is_group": 1
+          "Forderungen aus Lieferungen und Leistungen sonstiges Ausland (Fremdw\u00e4hrungen)": {
+            "account_type": "Receivable",
+            "account_number": 2150
+          }
         },
         "218 Einzelwertberichtigungen zu Forderungen aus Lieferungen und Leistungen sonstiges Ausland (Fremdw\u00e4hrungen)": {
           "account_type": "Receivable",
@@ -698,7 +710,27 @@
       "40-44 Umsatzerl\u00f6se und Erl\u00f6sschm\u00e4lerungen": {
         "400-439 Umsatzerl\u00f6se (Untergliederung nach USt-Satz, W\u00e4hrung usw.)": {
           "account_type": "Income Account",
-          "is_group": 1
+          "Umsatzerl\u00f6se": {
+            "account_number": 4000
+          },
+          "Umsatzerl\u00f6se 10%": {
+            "account_number": 4001
+          },
+          "Umsatzerl\u00f6se (USt aus innergemeinschaftlichem Erwerb)": {
+            "account_number": 4010
+          },
+          "Umsatzerl\u00f6se (USt aus innergemeinschaftlichem Erwerb) 10%": {
+            "account_number": 4011
+          },
+          "Umsatzerl\u00f6se (Reverse Charge)": {
+            "account_number": 4020
+          },
+          "Umsatzerl\u00f6se (Reverse Charge) 10%": {
+            "account_number": 4021
+          },
+          "Umsatzerl\u00f6se Drittland": {
+            "account_number": 4030
+          }
         },
         "440-449 Erl\u00f6sschm\u00e4lerungen (Untergliederung wie Umsatzerl\u00f6se)": {
           "account_type": "Expense Account",
